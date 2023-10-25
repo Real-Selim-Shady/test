@@ -1,0 +1,22 @@
+
+.search-type-block{
+    display:flex;
+    flex-direction: column;
+}
+
+.search-type-block button{
+    background-color: transparent;
+    border: none;
+    color: antiquewhite;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.search-type-block button:hover{
+    color: rgb(255, 123, 75);
+}
+
+.big-text{
+    font-size: 20px; 
+    padding-bottom: 20px;
+  }

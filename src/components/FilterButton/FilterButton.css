@@ -1,0 +1,62 @@
+
+.cocktails-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.cocktail-card-block{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    place-content: center;
+}
+
+.cocktail-card-block label {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.search-block span {
+    font-size: 20px;
+}
+
+.search-text{
+    font-size: 20px;   
+    padding: 20px;
+}
+
+.search-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.search-block input {
+    margin-top: 10px;
+    width: 180px;
+    height: 20px;
+}
+
+.with-without-block{
+    display: flex;
+    width:30%;
+    justify-content: space-evenly;
+}
+
+.with-without-block button{
+    background-color: transparent;
+    border: none;
+    color: antiquewhite;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.with-without-block button:hover{
+    color: rgb(255, 123, 75);
+}
